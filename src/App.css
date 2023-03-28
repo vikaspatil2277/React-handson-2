@@ -1,0 +1,68 @@
+.main-container{
+  background-image: linear-gradient(
+    skyblue,  
+    pink,
+    white
+  );
+}
+
+.form-container{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  
+}
+
+label{
+  margin: 2%;
+  font-size: larger;
+  font-weight: bolder;
+}
+.feedback-div{
+  width: 90%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2% auto;
+}
+
+span{
+  
+  text-align: center;
+  margin: 2%;
+  height: 70px;
+  width: 480px;
+  border: 1px solid black;
+  background-color: aqua;
+  border-radius: 20px;
+  font-size: 25px;
+  box-sizing: border-box;
+  padding-top: 13px;
+}
+
+.labels{
+  display: flex;
+  justify-content: space-between;
+  margin: 8%;
+}
+
+input{
+  border-radius: 15px;
+  height: 40px;
+  width: 300px;
+  background-color: aquamarine;
+  font-size: large;
+}
+
+button{
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  margin-left: 25%;
+  background-color: aquamarine;
+  font-size: larger;
+  font-weight: bolder;
+  
+}
